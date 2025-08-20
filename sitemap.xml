@@ -15,50 +15,6 @@
         <priority>0.9</priority>
     </url>
 
-    <!-- Case Studies -->
-    <url>
-        <loc>https://www.hillisch-consulting.com/case1-de.html</loc>
-        <lastmod>2024-12-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.3</priority>
-    </url>
-
-    <url>
-        <loc>https://www.hillisch-consulting.com/case1-en.html</loc>
-        <lastmod>2024-12-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.3</priority>
-    </url>
-
-    <url>
-        <loc>https://www.hillisch-consulting.com/case2-de.html</loc>
-        <lastmod>2024-12-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.3</priority>
-    </url>
-
-    <url>
-        <loc>https://www.hillisch-consulting.com/case2-en.html</loc>
-        <lastmod>2024-12-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.3</priority>
-    </url>
-
-    <!-- Projects Index -->
-    <url>
-        <loc>https://www.hillisch-consulting.com/index-case-de.html</loc>
-        <lastmod>2024-12-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.3</priority>
-    </url>
-
-    <url>
-        <loc>https://www.hillisch-consulting.com/index-case-en.html</loc>
-        <lastmod>2024-12-15</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.3</priority>
-    </url>
-
     <!-- Legal Notices -->
     <url>
         <loc>https://www.hillisch-consulting.com/impressum.html</loc>
