@@ -385,11 +385,10 @@ body.blue-bg .navbar-container {
   color: #fff;
 }
 .contact-tagline {
-  text-align: center;
+  text-align: left;
   color: #fff;
   max-width: 600px;
-  margin: 0 auto 2rem;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
 }
 
 
@@ -425,7 +424,7 @@ body.blue-bg .navbar-container {
 
 .contact-detail {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 1rem;
   background: #fff;
   color: var(--color-dark);
