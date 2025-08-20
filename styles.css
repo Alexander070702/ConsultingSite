@@ -456,12 +456,16 @@ body.blue-bg .navbar-container {
 @media (max-width: 768px) {
   .burger-menu {
     display: flex;
+    margin-left: auto;
+    order: 2;
   }
   .desktop-nav {
     display: none;
   }
   .language-toggle2 {
-    order: 2;
+    order: 1;
+    margin-left: 0;
+    padding-right: 0;
   }
   .contact-wrapper {
     flex-direction: column;
