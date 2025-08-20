@@ -53,4 +53,18 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   }
+
+  const contactTexts = document.querySelectorAll('.contact-detail p');
+  function updateContactAlignment() {
+    contactTexts.forEach(p => {
+      const lineHeight = parseFloat(getComputedStyle(p).lineHeight);
+      if (p.offsetHeight > lineHeight * 1.2) {
+        p.style.textAlign = 'left';
+      } else {
+        p.style.textAlign = 'center';
+      }
+    });
+  }
+  updateContactAlignment();
+  window.addEventListener('resize', updateContactAlignment);
 });
