@@ -438,6 +438,10 @@ body.blue-bg .navbar-container {
   color: inherit;
 }
 
+.contact-detail p {
+  text-align: left;
+}
+
 .contact-icon {
   width: 32px;
   height: 32px;
