@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px; /* Base font size */
+    line-height: 1.6;
+    color: #fff;
+    background-color: #0d2d56; /* Ensure the dark blue background remains */
+    overflow-x: hidden;
+}
+
+/* Case Study Section Styles */
+.case-study {
+    padding: 50px 20px;
+    text-align: left; /* Ensure text alignment */
+    line-height: 1.8; /* Improve readability */
+    color: #fff;
+    font-size: 1rem; /* Ensure scalable font size */
+}
+
+.case-study h1 {
+    font-size: 2.5rem; /* Larger header for emphasis */
+    margin-bottom: 20px;
+    text-align: left; /* Left-aligned */
+    color: #fff;
+}
+
+.case-study h2 {
+    font-size: 2rem; /* Slightly smaller than H1 for subheadings */
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2); /* Underline */
+    padding-bottom: 5px;
+    color: #fff;
+}
+
+.case-study p {
+    font-size: 1.3rem; /* Slightly larger text for readability */
+    text-align: left; /* Ensure text is left-aligned */
+    margin-bottom: 15px;
+    color: #dcdcdc; /* Lighter color for better readability */
+}
+
+.case-study ul,
+.case-study ol {
+    margin-left: 20px;
+    padding-left: 20px;
+    list-style-position: outside;
+}
+
+.case-study ul li,
+.case-study ol li {
+    font-size: 1.2rem; /* Ensure list items are readable */
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Responsive Text Adjustments */
+@media (max-width: 1200px) {
+    body {
+        font-size: 15px; /* Slightly reduce base font size for medium screens */
+    }
+
+    .case-study h1 {
+        font-size: 2rem;
+    }
+
+    .case-study h2 {
+        font-size: 1.8rem;
+    }
+
+    .case-study p {
+        font-size: 1.2rem; /* Adjust paragraph font size */
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 15px; /* Reduce base font size further for small screens */
+    }
+
+    .case-study h1 {
+        font-size: 1.8rem;
+    }
+
+    .case-study h2 {
+        font-size: 1.5rem;
+    }
+
+    .case-study p {
+        font-size: 1.2rem; /* Ensure text remains legible */
+    }
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    flex-wrap: nowrap; /* Verhindert Umbruch */
+    gap: 10px; /* Fügt minimalen Abstand zwischen den Elementen hinzu */
+}
+
+.language-toggle2 {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Sorgt für Abstand zwischen den Flags */
+    margin-left: auto; /* Schiebt die Language-Toggle ganz nach rechts */
+    padding-right: 10px; /* Fügt Abstand zum rechten Rand hinzu */
+    max-width: 100px; /* Begrenzung des Platzverbrauchs */
+    overflow: hidden; /* Schneidet überflüssigen Platz ab */
+}
+
+.flag-icon {
+    width: 24px;
+    height: 16px;
+    object-fit: cover; /* Hält die richtige Flaggenproportion */
+    display: block; /* Stellt sicher, dass die Flags inline bleiben */
+}
+
+
+.flag-icon {
+    width: 30px;
+    height: 25px;
+    object-fit: cover; /* Hält die richtige Flaggenproportion */
+    display: block; /* Stellt sicher, dass die Flags inline bleiben */
+}

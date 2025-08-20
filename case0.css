@@ -1,0 +1,111 @@
+
+/* Projects Section */
+.projects {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.projects h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.projects p {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    color: #dcdcdc;
+    line-height: 1.8;
+}
+
+/* Project Grid */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Individual Project Item */
+.project-item {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Project Content */
+.project-content h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.project-content p {
+    font-size: 1rem;
+    color: #dcdcdc;
+    margin-bottom: 15px;
+}
+
+.read-more {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.read-more:hover {
+    color: #005bb5;
+}
+/* General Styling for Paragraphs */
+.projects p,
+.project-content p {
+    text-align: left; /* Aligns text to the left */
+    font-size: 1.2rem; /* Slightly larger font for readability */
+    line-height: 1.8; /* Improves text spacing */
+    color: #dcdcdc; /* Consistent light gray for text */
+    margin-bottom: 20px; /* Space between paragraphs */
+    word-wrap: break-word; /* Ensures long words don't overflow */
+}
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    flex-wrap: nowrap; /* Verhindert Umbruch */
+    gap: 10px; /* Fügt minimalen Abstand zwischen den Elementen hinzu */
+}
+
+.language-toggle2 {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Sorgt für Abstand zwischen den Flags */
+    margin-left: auto; /* Schiebt die Language-Toggle ganz nach rechts */
+    padding-right: 10px; /* Fügt Abstand zum rechten Rand hinzu */
+    max-width: 100px; /* Begrenzung des Platzverbrauchs */
+    overflow: hidden; /* Schneidet überflüssigen Platz ab */
+}
+
+.flag-icon {
+    width: 24px;
+    height: 16px;
+    object-fit: cover; /* Hält die richtige Flaggenproportion */
+    display: block; /* Stellt sicher, dass die Flags inline bleiben */
+}
+
+
+.flag-icon {
+    width: 30px;
+    height: 25px;
+    object-fit: cover; /* Hält die richtige Flaggenproportion */
+    display: block; /* Stellt sicher, dass die Flags inline bleiben */
+}
+

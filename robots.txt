@@ -1,0 +1,8 @@
+# Allgemeine Regeln für alle Bots
+User-agent: *
+
+# Erlaube das Crawlen der gesamten Website
+Allow: /
+
+# Sitemap-Location
+Sitemap: https://www.hillisch-consulting.com/sitemap.xml
