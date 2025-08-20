@@ -92,10 +92,6 @@ body.blue-bg .navbar-container {
 
 .language-toggle2 {
   display: flex;
-  gap: .5rem;
-}
-
-body.blue-bg .language-toggle2 {
   align-items: center;
   gap: 10px;
   margin-left: auto;
