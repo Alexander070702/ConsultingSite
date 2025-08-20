@@ -395,16 +395,20 @@ body.blue-bg .navbar-container {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  align-items: center;
+  align-items: stretch;
 }
 
 .contact-photo {
   flex: 1 1 250px;
+  display: flex;
 }
 
 .founder-photo {
   border-radius: .5rem;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .contact-details {
@@ -461,10 +465,14 @@ body.blue-bg .navbar-container {
   }
   .contact-photo {
     width: 100%;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
   .contact-details {
     width: 100%;
+  }
+  .founder-photo {
+    height: auto;
   }
 }
 .contact-cta {
