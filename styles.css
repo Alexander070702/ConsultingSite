@@ -389,6 +389,7 @@ body.blue-bg .navbar-container {
   color: #fff;
   max-width: 600px;
   margin: 0 auto 2rem;
+  margin-bottom: 20px;
 }
 
 
@@ -488,6 +489,7 @@ body.blue-bg .navbar-container {
   }
   .founder-photo {
     height: auto;
+    margin-top: 60px;
   }
 }
 .contact-cta {
