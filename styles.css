@@ -456,6 +456,17 @@ body.blue-bg .navbar-container {
   .language-toggle2 {
     order: 2;
   }
+  .contact-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-photo {
+    width: 100%;
+    text-align: center;
+  }
+  .contact-details {
+    width: 100%;
+  }
 }
 .contact-cta {
   text-align: center;
