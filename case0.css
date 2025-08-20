@@ -109,3 +109,16 @@
     display: block; /* Stellt sicher, dass die Flags inline bleiben */
 }
 
+@media (max-width: 768px) {
+    .language-toggle2 {
+        order: 1;
+        margin-left: 0;
+        padding-right: 0;
+    }
+
+    .burger-menu {
+        margin-left: auto;
+        order: 2;
+    }
+}
+
